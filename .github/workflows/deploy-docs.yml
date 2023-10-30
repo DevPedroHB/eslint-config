@@ -23,7 +23,7 @@ jobs:
       - name: Install pnpm
         run: npm install -g pnpm
 
-      - run: pnpm ci
+      - run: pnpm install --frozen-lockfile
 
       - name: Publish to NPM
         id: changesets
