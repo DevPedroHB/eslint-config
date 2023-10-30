@@ -1,0 +1,35 @@
+{
+  "name": "@pedrohb/eslint-config",
+  "version": "1.0.0",
+  "private": false,
+  "description": "ESLint configuration used by PedroHB.",
+  "main": "index.js",
+  "license": "MIT",
+  "repository": {
+    "url": "devpedrohb/eslint-config"
+  },
+  "scripts": {
+    "release": "pnpm publish"
+  },
+  "peerDependencies": {
+    "eslint": "^8.52.0",
+    "typescript": ">=5"
+  },
+  "peerDependenciesMeta": {
+    "typescript": {
+      "optional": true
+    }
+  },
+  "dependencies": {
+    "@tanstack/eslint-plugin-query": "^5.0.5",
+    "@typescript-eslint/eslint-plugin": "^6.9.0",
+    "@typescript-eslint/parser": "^6.9.0",
+    "eslint-config-next": "^14.0.0",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-prettier": "^5.0.1",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint": "^8.52.0",
+    "prettier": "^3.0.3"
+  }
+}
